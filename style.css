@@ -117,17 +117,21 @@ body.dimmed {
 }
 
 /* Letter Box in popup style */
+/* Letter Box in popup style */
 .letter-box {
     background: white;
     width: 80%;
     max-width: 500px;
+    max-height: 70vh; /* limit the height to 70% of viewport */
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     text-align: left;
     font-size: 18px;
     line-height: 1.5;
+    overflow-y: auto; /* enable vertical scrolling */
 }
+
 
 /* Reuse popup overlay style */
 .popup {
@@ -160,4 +164,5 @@ body.dimmed {
 .letter-box p {
     color: #000000; /* dark text for visibility */
 }
+
 
