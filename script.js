@@ -1,21 +1,21 @@
 const photos = [
-    { file: "1.JPEG", caption: "eating lolipop with you si 2 in 1, can taste both flavors hehe" },
-    { file: "2.png", caption: "our first and official photo together, you look so pretty the first time i saw you" },
-    { file: "3.JPEG", caption: "happy birthday lovey, your 23rd year is the start the life you deserve and need. I LOVE YOU" },
-    { file: "4.JPG", caption: "first lunch date, when i picked you up in your house the first time i still remember the smile on your face. CUTEE" },
+    { file: "1.JPEG", caption: "eating lollipop with you is 2 in 1, can taste both flavors hehe" },
+    { file: "2.png", caption: "our first and official photo together, you look so pretty the first time I saw you" },
+    { file: "3.JPEG", caption: "happy birthday lovey, your 23rd year is the start of the life you deserve and need. I LOVE YOU" },
+    { file: "4.JPG", caption: "first lunch date, when I picked you up from your house the first time, I still remember the smile on your face. CUTEE" },
     { file: "5.jpg", caption: "HAHAHAHA TALOOOOOOO BLEHHH" },
     { file: "6.JPG", caption: "our first anak, you forgot him ako na lang pinag alaga mo" },
-    { file: "7.JPEG", caption: "pictures like this makes the date more memorable, a pretty lady beside me and my goofy face" },
-    { file: "8.JPEG", caption: "choco + you = selos, ay HAHAHAHAA, i'm so happy that you play with choco" },
+    { file: "7.JPEG", caption: "pictures like this make the date more memorable, a pretty lady beside me and my goofy face" },
+    { file: "8.JPEG", caption: "choco + you = selos, ay HAHAHAHAA, I'm so happy that you play with choco" },
     { file: "9.JPEG", caption: "SORRY. YKIYK" },
-    { file: "10.JPEG", caption: "they say that the eyes never lie, so that our hands, warmth were never be scripted " },
+    { file: "10.JPEG", caption: "they say that the eyes never lie, so that our hands, warmth were never scripted " },
     { file: "11.JPEG", caption: "i said \"loveyy update kay mama\" just for me to see your smile" },
     { file: "12.JPEG", caption: "my always safe place" },
     { file: "13.JPEG", caption: "literally love is in the air, we are so PINK" },
     { file: "14.JPEG", caption: "AM I POGI? I KNOW I AM ay HAHAHAHAHAHAHAHAHA" },
-    { file: "15.JPEG", caption: "Meet with my tito na lumalaban sa west philippine sea, i'm so happy slowly you are meeting them" },
+    { file: "15.JPEG", caption: "Meet with my tito na lumalaban sa west philippine sea, I'm so happy slowly you are meeting them" },
     { file: "16.jpg", caption: "JEFFFFFFFFFF THE CHEFFFF, our first anak sa POV mo, i hope he is okay with her mama" },
-    { file: "17.JPEG", caption: "OMGGG YOU AREE SOOOO PRETTY I DON'T KNOW HOW YOUR CLASSMATES RESIST YOUR PRETTINESS" },
+    { file: "17.JPEG", caption: "OMGGG YOU ARE SOOOO PRETTY I DON'T KNOW HOW YOUR CLASSMATES RESIST YOUR PRETTINESS" },
     { file: "18.JPEG", caption: "sarap loveyy?? mas masarap parin kiss ko ay HAHAHAHAHA" },
     { file: "19.JPEG", caption: "together with our least favorite restooo :>" },
     { file: "20.JPEG", caption: "happy ang nanay mo jeff nakidnap ka niya sa arcadeee" }
@@ -40,5 +40,6 @@ function closeLetter() {
     document.getElementById("letterPopup").style.display = "none";
     document.body.classList.remove(""); // optional, restores background
 }
+
 
 
